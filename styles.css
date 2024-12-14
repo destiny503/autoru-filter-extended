@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.wrapper {
+    margin-top: 80px;
+    width: 95%;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 300px;
+    background-color: rgba(119, 119, 119, 0.3);
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+.title {
+    position: absolute;
+    font-size: 30px;
+    margin-top: -60px;
+    color: rgba(250, 235, 215, 0.9);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.input {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    width: 97%;
+    box-sizing: border-box;
+    background-color: rgba(250, 235, 215, 0.7);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: text;
+}
+input:focus {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+
+.removal-pad {
+    min-height: 20px;
+    margin: 3px 11px 0px 11px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-pad {
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 7px;
+}
+
+.action-pad {
+    position: absolute; /* Позиционируем относительно родительского элемента */
+    top: 100%; /* Под кнопкой */
+}
+
+.action-pad button {
+    width: 25px;
+}
+
+button {
+    background-color: #faebd7e6;
+    outline: none;
+    border-radius: 7px;
+}
+
+#secretVendor {
+    background-color: rgb(255, 230, 0);
+    box-shadow: 0 0 5px rgb(255, 230, 0);
+}
+
+input::selection {
+    background-color: rgb(255, 255, 255);  /*  Цвет фона при выделении */
+}
+
+.popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);  /* Полупрозрачный фон */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;  /* Изначально скрыт */
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;  /* Убедитесь, что он поверх других элементов */
+}

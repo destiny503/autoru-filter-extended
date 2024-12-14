@@ -11,32 +11,23 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="title">destiny / autoru_filter<span style="color: rgb(255, 230, 0);">_extended</span></div>
+        <div class="header">
+            <div class="title">
+                destiny / autoru_filter
+                <span style="color: rgb(255, 230, 0);">
+                _extended</span>
+            </div>
+            <div class="main-buttons"></div>
+        </div>
         <input class="input" type="text" value="https://auto.ru/cars/used/?" readonly>
         <div class="removal-pad"></div>
-        <div class="button-pad">
-            <button class="brandBtn" data-brand="VENDOR10">КИТАЙСКИЕ</button>
-            <button class="brandBtn" data-brand="VENDOR1">ОТЕЧЕСТВЕННЫЕ</button>
-            <button class="brandBtn" data-brand="VENDOR2">ИНОМАРКИ</button>
-            <button class="brandBtn" data-brand="VENDOR3">ЕВРОПЕЙСКИЕ</button>
-            <button class="brandBtn" data-brand="VENDOR4">НЕМЕЦКИЕ</button>
-            <button class="brandBtn" data-brand="VENDOR5">ФРАНЦУЗСКИЕ</button>
-            <button class="brandBtn" data-brand="VENDOR7">ЯПОНСКИЕ</button>
-            <button class="brandBtn" data-brand="VENDOR9">КОРЕЙСКИЕ</button>
-            <button class="brandBtn" data-brand="VENDOR8">АМЕРИКАНСКИЕ</button>
-            <button id="secretVendor" class="brandBtn" data-brand="VENDOR6">ИТАЛЬЯНСКИЕ</button>
-            <button class="brandBtn" data-brand="bmw">BMW</button>
-            <button class="brandBtn" data-brand="chevrolet">Chevrolet</button>
-            <button class="brandBtn" data-brand="ford">Ford</button>
-            <button class="brandBtn" data-brand="hyundai">Hyundai</button>
-            <button class="brandBtn" data-brand="kia">Kia</button>
-            <button class="brandBtn" data-brand="vaz">Lada</button>
-            <button class="brandBtn" data-brand="mercedes">Mercedes</button>
-            <button class="brandBtn" data-brand="nissan">Nissan</button>
-        </div>
+        <div class="button-pad"></div>
         <div class="action-pad"></div>
     </div>
     <div class="popup">Copied!</div>
-    <script src="app.js" defer></script>
+    <script src="brands.js" type="module" defer></script>
+    <script src="buttons.js" type="module" defer></script>
+    <script src="mainButtons.js" type="module" defer></script>
+    <script src="main.js" type="module" defer></script>
 </body>
 </html>

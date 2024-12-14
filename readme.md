@@ -6,6 +6,7 @@
 
 Добавлена скрытая подгруппа брендов "Итальянские".
 
+
 **[An advanced filter](https://destiny503.github.io/autoru-filter-extended/) for the Auto.ru**
 
 Enables selecting or excluding more than five models or groups, which can be particularly useful for market analysis.
